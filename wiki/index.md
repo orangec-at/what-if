@@ -26,6 +26,15 @@ Read this page first. It is the content catalog for the wiki.
 - [[concepts/llm-maintained-wiki|LLM-maintained wiki]] — the maintenance pattern used here.
 - [[concepts/knowledge-compounding|Knowledge compounding]] — why durable synthesis beats one-off retrieval.
 
+
+## Career System
+
+- [[concepts/remote-first-frontend-fullstack-engineer|Remote-first frontend-based fullstack engineer]] — the target identity for the job search.
+- [[concepts/remote-guild-quest-system|Remote Guild Quest System]] — playful what-if framework for career progress.
+- [[practices/what-if-career-experiments|What-if career experiments]] — weekly artifact-producing quest loop.
+- [[syntheses/remote-first-career-quest-map|Remote-first career quest map]] — initial axes, quests, and first-month path.
+- [[decisions/2026-04-20-career-framework-direction|Career framework direction]] — decision record for the chosen frame.
+
 ## Practices
 
 - [[practices/ingest|Ingest]] — processing a source into the wiki.
