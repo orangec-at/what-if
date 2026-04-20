@@ -1,0 +1,67 @@
+{
+  "name": "software-developer-ontology",
+  "version": "0.1.0",
+  "created": "2026-04-20",
+  "layers": {
+    "raw": {
+      "path": "raw/",
+      "owner": "human",
+      "mutable_by_agent": false
+    },
+    "wiki": {
+      "path": "wiki/",
+      "owner": "agent",
+      "mutable_by_agent": true
+    },
+    "schema": {
+      "paths": [
+        "AGENTS.md",
+        "ontology/"
+      ],
+      "owner": "agent_with_user_direction",
+      "mutable_by_agent": true
+    }
+  },
+  "entity_types": [
+    "concept",
+    "practice",
+    "tool",
+    "artifact",
+    "principle",
+    "quality-attribute",
+    "risk",
+    "decision",
+    "source",
+    "synthesis",
+    "question",
+    "lint-report"
+  ],
+  "relation_types": [
+    "is-a",
+    "part-of",
+    "depends-on",
+    "enables",
+    "constrains",
+    "implements",
+    "tested-by",
+    "mitigates",
+    "trades-off-with",
+    "supersedes",
+    "contradicts",
+    "evidence-for",
+    "observed-in",
+    "asked-by",
+    "answered-by"
+  ],
+  "required_files": [
+    "wiki/index.md",
+    "wiki/log.md",
+    "AGENTS.md"
+  ],
+  "lint": {
+    "command": "python3 scripts/wiki_lint.py",
+    "hard_failures": [
+      "unresolved_wikilinks"
+    ]
+  }
+}

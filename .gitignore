@@ -1,0 +1,13 @@
+# Local OS/editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Python/tooling noise
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# OMX runtime state is local operational metadata, not ontology content
+.omx/
